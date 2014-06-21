@@ -5,8 +5,7 @@
     <property name="env" value="dev" />
     
     <!-- ============================================  -->
-    <!-- Target: db                                    -->
-    <!-- ============================================  -->
+    <!-- Target: db                                    -->-- ============================================  -->
     <target name="db:create"
             description="Create database using symfony2 console utility">
             <sfconsole command="doctrine:database:create --env=${env}" dir="${app.dir}"/>
